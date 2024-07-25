@@ -4,7 +4,7 @@ let resposta=""
 do{
     let resposta = prompt(
         "-----MENU-----"+
-        "\nImoveis cadastrados: "+
+        "\nImoveis cadastrados: "+imoveis.length+
         "\nEscolha uma das opções:"+
         "\n1- Cadastrar novo imóvel\n2- Ver todos os imóveis salvos\n3- Sair"
     )
